@@ -1,0 +1,76 @@
+:root {
+    --bg-dark: #1E1E1E;
+    --bg-grey: #a8a8a8;
+    --bg-blue: #1013d6;
+}
+
+body {
+    background-color: var(--bg-dark);
+}
+
+.back {
+    background-color: #1E1E1E;
+}
+
+nav {
+    background-color: var(--bg-grey);
+}
+
+.box-form-item {
+    position: relative;
+}
+
+
+.card-financeiro {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background-color: #fff;
+    margin: 15% auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 500px;
+}
+
+p, th, td, tr {
+    font-weight: bold;
+}
+
+/* Show the modal when the checkbox is checked */
+#modal-toggle1:checked ~ .modal {
+    display: block;
+}
+#modal-toggle2:checked ~ .modal {
+    display: block;
+}
+#modal-toggle3:checked ~ .modal {
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+

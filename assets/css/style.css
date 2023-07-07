@@ -1,0 +1,25 @@
+:root {
+    --bg-dark: #1E1E1E;
+    --bg-grey: #a8a8a8;
+    --bg-blue: #1013d6;
+}
+
+.body {
+    font-family: 'Catamaran', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.background {
+    background-color: var(--bg-dark);
+}
+
+.flogin {
+    background-color: var(--bg-grey);
+}
+
+.sign-up {
+    color: var(--bg-blue);
+}
